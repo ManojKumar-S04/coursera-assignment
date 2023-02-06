@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Helvetica', Times, serif;
 }
 
 .row {
@@ -50,21 +50,21 @@ body {
 }
 
 #one {
-    background-color: red;
+    background-color: yellow;
 }
 
 #two {
-    background-color: brown;
+    background-color: red;
     color: white
 }
 
 #three {
-    background-color: yellowgreen;
+    background-color: pink;
 }
 
 /*Responsive FrameWork*/
 
-/* For Desktopp */
+/* Desktop */
 
 @media(min-width: 992px) {
 
@@ -132,7 +132,7 @@ body {
     }
 }
 
-/* For Tablet */
+/* Tablet */
 
 @media(min-width:768px) and (max-width:991px) {
     .col-lg-4 {
@@ -146,7 +146,7 @@ body {
     }
 }
 
-/* For Mobile */
+/* Mobile */
 
 @media(max-width:767) {
     .col-lg-4 {
